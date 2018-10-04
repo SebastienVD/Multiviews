@@ -1,4 +1,5 @@
 import React from 'react';
+import Multiviews from './Multiviews';
 
 export default class MultiviewsTestApp extends React.Component {
   constructor(props){
@@ -19,7 +20,7 @@ export default class MultiviewsTestApp extends React.Component {
       view: () => (<div>This is the content of the second subview</div>)
     },
     views3: {
-      name: 'Third view'
+      name: 'Third view',
       view: () => (<div>This is the content of the second subview</div>)
     }  }}
 />
