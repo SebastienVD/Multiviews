@@ -21,7 +21,7 @@ export default class MultiviewsTestApp extends React.Component {
     },
     views3: {
       name: 'Third view',
-      view: () => (<div>This is the content of the second subview</div>)
+      view: () => (<div>This is the content of the third subview</div>)
     }  }}
 />
       );
